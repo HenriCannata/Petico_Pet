@@ -1,0 +1,133 @@
+:root{
+    --color1: #F5E5FD;
+    --color2:#4E2096;
+    --color3:#EA534A;
+    --color4:#74CB90;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+}
+body{
+    background-color:var(--color1);
+    color: var(--color2);
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.titulo{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.familiaDCor{
+    width: 45%;
+    align-self: center;
+}
+figcaption{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.familia{
+    margin: 10px;
+    font-size: 34px;
+}
+#NomeEmpresa{
+    color:var(--color3);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+li{
+    margin: 10px;
+}
+.centro_destribuicao{
+    background-color: var(--color4);
+    color:var(--color2);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+}
+#Deposito{
+    width: 45%;
+    margin: 20px;
+}
+#Imagem{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Diferenciais{
+    background-color: var(--color4);
+    color: var(--color2);
+    border-radius: 30px;
+    width: fit-content;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px 40px;
+}
+p{
+    margin: 20px;
+}
+.menu {
+    list-style: none;
+    text-decoration: none;
+    color:var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    background: var(--color4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logotipo{
+    width: 100px;
+}
+.menu li {
+margin-left: 15px;
+}
+
+.menu li a{
+    list-style: none;
+    text-decoration: none;
+    color:var(--color2);
+    display: flex;
+    justify-content: center;
+}
+.headerLi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0;
+}
+.verde{
+    color: #EA534A;
+}
+.imgfamilia{
+    float: left;
+    margin: 15px;
+    width: 40%;
+}
